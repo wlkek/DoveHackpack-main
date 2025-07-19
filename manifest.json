@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Dovehackpack",
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ],
+    "name": "Dovehackpack",
+    "uuid": "1d78d0cb-aa8a-44eb-9354-fe750726b3c8",
+    "version": [
+      2,
+      1,
+      5
+    ]
+  },
+  "modules": [
+    {
+      "description": "Dovehackpack",
+      "type": "resources",
+      "uuid": "4ccf0eee-4fc6-48c2-8ca0-91bded089320",
+      "version": [
+        2,
+        1,
+        5
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player_icon.offset": {
+			"loop": true,
+			"bones": {
+				"esp": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.player_icon.zoom": {
+			"loop": true,
+			"bones": {
+				"R_T": {
+					"position": ["-v.movemove", "v.movemove", 0]
+				},
+				"esp": {
+					"rotation": [0, 0, "query.life_time*v.rotation_speed+v.rotation_offset"]
+				},
+				"L_B": {
+					"rotation": [0, 0, 180],
+					"position": ["v.movemove", "-v.movemove", 0]
+				},
+				"L_T": {
+					"rotation": [0, 0, 90],
+					"position": ["v.movemove", "v.movemove", 0]
+				},
+				"R_B": {
+					"rotation": [0, 0, -90],
+					"position": ["-v.movemove", "-v.movemove", 0]
+				},
+				"esp1": {
+					"relative_to": {
+						"rotation": "entity"
+					},
+					"rotation": ["-query.camera_rotation(0)", "-query.body_y_rotation+query.camera_rotation(1)+180", 0],
+					"scale": 1.5
+				},
+				"esp2": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		}
+	}
+}
